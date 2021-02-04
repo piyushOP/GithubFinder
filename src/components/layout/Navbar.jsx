@@ -8,7 +8,7 @@ function Navbar(props){
             <h4><i class="fab fa-github"></i>&nbsp;{props.title}</h4>
             <ul>
                 <li>
-                    <Link to="/">Home</Link>
+                    <Link to="/GithubFinder">Home</Link>
                 </li>
                 <li>
                     <Link to="/about">About</Link>

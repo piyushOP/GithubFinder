@@ -5,7 +5,7 @@ function NotFound(){
     return(
         <div>
             <h1>Wrong Route</h1>
-            <p className="lead"> Please go to Home Section to serach Github Users </p>
+            <p className="lead"> Please go to Home Section to search Github Users </p>
         </div>
     );
 }
