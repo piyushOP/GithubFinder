@@ -22,10 +22,10 @@ function App(){
                     <div className="container">
                         <Alert  />
                         <Switch>
-                            <Route exact path='/' component={Home} />
+                            <Route exact path='/GithubFinder-React-Functional-Comp' component={Home} />
                             <Route exact path="/about" component={About} />
                             <Route exact path="/user/:login" component={User} />
-                            <Route component={Home} />
+                            <Route component={NotFound} />
                         </Switch>
                     </div>
                 </div>
